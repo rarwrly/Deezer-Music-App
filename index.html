@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+</head>
+<body>
+    <div id="container">
+        <div id="input-content">
+            <center>
+                <label for ="inputAlbum">Alblum</label>
+                <input type="text" id='inputAlbum' name="" class="input">
+                <label for ="inputArtist">Artist</label>
+                <input type="text" id='inputArtist' name="" class="input">
+                <input type="submit" id='submit' name="">
+                <div class="info"> Type Alblum Name in first field and Artist Name in the second. Click Submit Query to load the Alblum.</div>
+            </center>
+        </div>
+        <div id="boombox">
+            <div id='alblum'></div>
+            <div id='audio'>
+                <div id='audioDisplay'>
+                    <p id='trackName'>Click Play after loading an Alblum</p>
+                </div>
+                <div id='audioContorls' >
+                    <button id='previousButton'>Previous</button>
+                    <button id='stopButton'>Stop</button>
+                    <button id='playButton'>Play</button>
+                    <button id='pauseButton'>Pause</button>
+                    <button id='nextButton'>Next</button>
+                    <button id='shuffleButton'>Shuffle</button>
+                </div>
+            </div>
+    </div>
+    </div>
+<script type="text/javascript" src='index.js'></script>
+</body>
+</html>

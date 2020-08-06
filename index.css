@@ -1,0 +1,50 @@
+body{
+    font-family: 'Lucida Console';
+        border: solid;
+    border-width: thick;
+}
+#boombox{
+    margin: auto;
+    width: 50%;
+
+}
+#audioContorls, #trackName{
+    margin: auto;
+    width: 50%;
+    padding-top: 10Px;
+    padding-bottom: 10px;
+}
+marquee#trackName{
+    direction: slide;
+    scrolldelay:80;
+}
+
+body {
+  background-color: #f6fafb;
+  font-size: 16px; }
+
+.container {
+  width: 300px;
+  margin: auto;
+  display: block;
+  margin-top: 1em;
+display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+
+
+#alblum {
+    margin: auto;
+    width:50%;
+    margin-top: 20px;
+
+    background-color: #e6e6e6;
+
+}
+
+.input {
+    margin: 20px;
+}
